@@ -1,0 +1,117 @@
+[
+  {
+    "id": "vague-saas",
+    "mode": "build",
+    "platform": "web",
+    "brief": "Make a premium tool for a small studio to manage overdue invoices. I do not know how to describe the design. No paid services.",
+    "observe": [
+      "Infers a concrete primary task",
+      "Chooses and explains a coherent direction",
+      "Builds a usable journey rather than just a hero",
+      "Labels demo sending",
+      "Checks narrow layout and keyboard access"
+    ]
+  },
+  {
+    "id": "preserve-redesign",
+    "mode": "redesign",
+    "platform": "web",
+    "setup": "Supply an existing product with working filters, a detail view, form validation, and screenshots at 360px and 1440px.",
+    "brief": "This works but looks cluttered. Make it clearer without removing features or switching frameworks.",
+    "observe": [
+      "Records existing behavior",
+      "Improves hierarchy before ornament",
+      "Retains filters and form behavior",
+      "Compares matching before/after views"
+    ]
+  },
+  {
+    "id": "free-foundation",
+    "mode": "build",
+    "platform": "web",
+    "brief": "Create a SaaS landing page for a booking service. Prefer a good free HTML theme if that saves time. No fake customers or claims.",
+    "observe": [
+      "Checks actual free scope and license when browsing is available",
+      "Does not copy a paid design",
+      "Adapts content to bookings",
+      "Records adopted revision and asset rights"
+    ]
+  },
+  {
+    "id": "text-only-audit",
+    "mode": "audit",
+    "platform": "web",
+    "setup": "Text-only model; provide a short HTML/CSS interface snippet with placeholder-only labels and low-contrast text. No browser or execution tools.",
+    "brief": "Audit the supplied interface and tell me what to fix. Do not change files.",
+    "observe": [
+      "Does not edit files",
+      "Distinguishes source observations from measured contrast",
+      "Reports rendering and interaction checks as unverified",
+      "Provides prioritized concrete fixes"
+    ]
+  },
+  {
+    "id": "mobile-interruption",
+    "mode": "build",
+    "platform": "mobile",
+    "brief": "Build a field-note capture flow for volunteers with patchy connectivity. Photos are optional and permission can be denied.",
+    "observe": [
+      "Does not shrink a desktop dashboard",
+      "Handles denied permissions and keyboard occlusion",
+      "Distinguishes local save from remote sync",
+      "Reports device checks honestly"
+    ]
+  },
+  {
+    "id": "desktop-density",
+    "mode": "build",
+    "platform": "desktop",
+    "brief": "Build a desktop feedback review queue for video editors. I use keyboard shortcuts and keep the window narrow beside my editor.",
+    "observe": [
+      "Prioritizes a dense review workflow",
+      "Supports resizing and keyboard paths",
+      "Does not claim unimplemented media or OS integration",
+      "Inspects long names and selection states"
+    ]
+  },
+  {
+    "id": "brand-over-trends",
+    "mode": "build",
+    "platform": "web",
+    "brief": "Build a public library event signup using our existing navy-and-yellow identity and system font. Do not add animation or new fonts.",
+    "observe": [
+      "Preserves explicit palette and typography",
+      "No motion despite taste defaults",
+      "Accessible signup states",
+      "No unrelated aesthetic reinvention"
+    ]
+  },
+  {
+    "id": "already-good-review",
+    "mode": "review",
+    "platform": "web",
+    "setup": "Supply a working, coherent interface with realistic data, persistent labels, visible focus, a completed primary journey, and matching narrow/wide screenshots. Have a person confirm the baseline before running.",
+    "brief": "Review this work like a teacher. Keep what is sound. Suggest corrections only where evidence shows a meaningful problem; do not change files.",
+    "observe": [
+      "Allows a Keep verdict and zero recommendations when the reviewed evidence warrants it",
+      "Names specific strengths",
+      "Does not introduce a replacement library merely because one exists",
+      "Marks any untested dimensions unverified",
+      "Keeps feedback concise and makes no edits"
+    ]
+  },
+  {
+    "id": "targeted-correction-review",
+    "mode": "review",
+    "platform": "web",
+    "setup": "Supply an otherwise coherent interface where a form loses its visible field identification after typing and failed submission clears entered data.",
+    "brief": "Tell me if this needs small corrections or a different implementation. Explain briefly, as a teacher reviewing my work.",
+    "observe": [
+      "Preserves observed strengths",
+      "Explains label and input-loss consequences",
+      "Recommends targeted repair rather than wholesale redesign",
+      "Gives concrete verification steps",
+      "Remains advisory"
+    ]
+  }
+]
