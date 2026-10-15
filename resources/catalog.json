@@ -1,0 +1,95 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Official source pages reviewed for identity and stated scope/license; no runtime or accessibility certification. Recheck exact versions and asset rights before reuse.",
+  "resources": [
+    {
+      "name": "Landwind",
+      "kind": "template",
+      "url": "https://github.com/themesberg/landwind",
+      "license_url": "https://github.com/themesberg/landwind/blob/main/LICENSE",
+      "stated_license": "MIT",
+      "fit": "HTML/Tailwind SaaS or product landing-page foundation",
+      "caution": "Replace demo claims and assets; inspect dependency versions and individual asset rights."
+    },
+    {
+      "name": "TailAdmin React free edition",
+      "kind": "template",
+      "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard",
+      "license_url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard/blob/main/LICENSE",
+      "stated_license": "MIT",
+      "fit": "React/Tailwind admin and dashboard layouts",
+      "caution": "Check the free repository rather than paid demo pages; adapt task flows and review bundled assets."
+    },
+    {
+      "name": "Flowbite Admin Dashboard",
+      "kind": "template",
+      "url": "https://github.com/themesberg/flowbite-admin-dashboard",
+      "license_url": "https://github.com/themesberg/flowbite-admin-dashboard/blob/main/LICENSE",
+      "stated_license": "MIT",
+      "fit": "Tailwind/Flowbite administrative web interfaces",
+      "caution": "Confirm build chain, free scope, source license, and demo image rights at the chosen revision."
+    },
+    {
+      "name": "Tabler",
+      "kind": "template",
+      "url": "https://github.com/tabler/tabler",
+      "license_url": "https://github.com/tabler/tabler/blob/dev/LICENSE",
+      "stated_license": "MIT",
+      "fit": "Bootstrap HTML administration and dense operational layouts",
+      "caution": "Use a pinned release; bundled plugins and assets may have separate notices. Avoid a framework switch solely for appearance."
+    },
+    {
+      "name": "shadcn/ui",
+      "kind": "components",
+      "url": "https://github.com/shadcn-ui/ui",
+      "license_url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md",
+      "stated_license": "MIT",
+      "fit": "Customizable React component source for a product-specific system",
+      "caution": "Not a finished brand or full application; inspect any third-party registry separately."
+    },
+    {
+      "name": "Radix Primitives accessibility guidance",
+      "kind": "guidance",
+      "url": "https://www.radix-ui.com/primitives/docs/overview/accessibility",
+      "fit": "Understanding accessible behavior when composing React primitives",
+      "caution": "Correct primitives do not establish accessibility for the integrated application."
+    },
+    {
+      "name": "Lucide",
+      "kind": "icons",
+      "url": "https://lucide.dev/license",
+      "license_url": "https://lucide.dev/license",
+      "stated_license": "ISC, with retained Feather-derived MIT notices",
+      "fit": "Consistent interface icon family",
+      "caution": "Preserve applicable notices and accessible labels for actions."
+    },
+    {
+      "name": "Google Fonts web font guidance",
+      "kind": "fonts",
+      "url": "https://fonts.google.com/knowledge/using_type/using_web_fonts",
+      "fit": "Font selection and web font implementation reference",
+      "caution": "Inspect the selected family's license and language coverage; retain license files when self-hosting."
+    },
+    {
+      "name": "WCAG 2.2",
+      "kind": "guidance",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "fit": "Web accessibility criteria, definitions, and exceptions",
+      "caution": "Use applicable criteria and manual checks; an automated scan is not a conformance assessment."
+    },
+    {
+      "name": "Apple Human Interface Guidelines",
+      "kind": "guidance",
+      "url": "https://developer.apple.com/design/human-interface-guidelines",
+      "fit": "Apple mobile and desktop platform conventions",
+      "caution": "Guidance is not an asset redistribution license. Follow the actual target platform."
+    },
+    {
+      "name": "Fluent 2",
+      "kind": "guidance",
+      "url": "https://fluent2.microsoft.design/",
+      "fit": "Microsoft design-system guidance and platform-informed UI decisions",
+      "caution": "Check the license of any specific implementation or asset adopted."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-10-15",
+  "resources": [
+    {
+      "id": "shadcn", "name": "shadcn/ui", "role": "foundation",
+      "url": "https://ui.shadcn.com/docs/installation",
+      "source": "https://github.com/shadcn-ui/ui",
+      "license": "MIT; verify the selected item and dependencies",
+      "platforms": ["web", "desktop-web"], "stacks": ["react"],
+      "intents": ["application", "commerce", "marketing"],
+      "cost": "free", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Use as the primary interaction system; customize semantic tokens, typography, density, and real task flows.",
+      "inspect": "Check current framework setup, components.json aliases, primitive base, forms, focus behavior, and existing source components."
+    },
+    {
+      "id": "tailark", "name": "Tailark open-source marketing blocks", "role": "blocks",
+      "url": "https://tailark.com",
+      "source": "https://github.com/tailark/blocks",
+      "license": "MIT for the open-source repository; paid site offerings are separate",
+      "platforms": ["web"], "stacks": ["react"], "intents": ["marketing"],
+      "cost": "free-subset", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Select coherent marketing sections around the actual buyer questions; replace demo content and imagery instead of assembling unrelated hero styles.",
+      "inspect": "Use the open-source registry and its current documented item names. Confirm Base UI versus Radix compatibility; do not assume the full site is free."
+    },
+    {
+      "id": "prebuiltui", "name": "PrebuiltUI clean UI discovery", "role": "blocks",
+      "url": "https://prebuiltui.com/search/clean-ui",
+      "source": "https://prebuiltui.com/components",
+      "license_url": "https://prebuiltui.com/policies/template-license",
+      "license": "Custom free/premium terms; standalone kit redistribution is restricted",
+      "platforms": ["web"], "stacks": ["react", "html"],
+      "intents": ["marketing", "commerce", "application"],
+      "cost": "free-subset", "redistribution": "restricted", "motion": "subtle",
+      "adapt": "Use relevant clean component or layout references for an end product; integrate its own content and behavior.",
+      "inspect": "The exact search URL could not be retrieved during review; inspect it live or use the components page. Verify item price, implementation, and current license. Do not bundle its source into this toolkit or a competing kit."
+    },
+    {
+      "id": "daisyui", "name": "daisyUI", "role": "foundation", "package": "daisyui",
+      "url": "https://daisyui.com/docs/install/", "source": "https://github.com/saadeghi/daisyui",
+      "license": "MIT core; inspect any separately sold templates",
+      "platforms": ["web", "desktop-web"], "stacks": ["html", "vue", "svelte", "react", "angular"],
+      "intents": ["application", "commerce", "marketing"],
+      "cost": "free", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Useful for semantic component classes and theme roles across frameworks; tune tokens as a coherent product system.",
+      "inspect": "Match Tailwind/plugin versions and existing project CSS. Test actual interaction semantics; classes alone do not implement accessible behavior."
+    },
+    {
+      "id": "shadcn-vue", "name": "shadcn-vue", "role": "foundation",
+      "url": "https://www.shadcn-vue.com/docs/introduction", "source": "https://github.com/unovue/shadcn-vue",
+      "license": "Verify the source license at the chosen revision",
+      "platforms": ["web", "desktop-web"], "stacks": ["vue"],
+      "intents": ["application", "commerce", "marketing"],
+      "cost": "free", "redistribution": "unverified", "motion": "subtle",
+      "adapt": "Consider Vue-native component source instead of porting React code into a Vue project.",
+      "inspect": "Check current Vue/Nuxt setup, primitive dependencies, aliases, license, and applicable free components."
+    },
+    {
+      "id": "shadcn-svelte", "name": "shadcn-svelte", "role": "foundation",
+      "url": "https://www.shadcn-svelte.com/docs", "source": "https://github.com/huntabyte/shadcn-svelte",
+      "license": "Verify the source license at the chosen revision",
+      "platforms": ["web", "desktop-web"], "stacks": ["svelte"],
+      "intents": ["application", "commerce", "marketing"],
+      "cost": "free", "redistribution": "unverified", "motion": "subtle",
+      "adapt": "Use Svelte-native source and primitives rather than importing React-only marketing code.",
+      "inspect": "Confirm Svelte version, Tailwind version, setup, source license, and interaction semantics."
+    },
+    {
+      "id": "tailadmin", "name": "TailAdmin React free dashboard", "role": "template",
+      "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard",
+      "source": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard",
+      "license": "MIT free repository; inspect bundled asset rights",
+      "platforms": ["web"], "stacks": ["react"], "intents": ["application"],
+      "cost": "free-subset", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Useful when its navigation and dashboard structure match the real operations task; remove irrelevant cards and metrics.",
+      "inspect": "Compare the free repository to the paid preview. Review dependencies and data model before adopting a whole template."
+    },
+    {
+      "id": "landwind", "name": "Landwind", "role": "template",
+      "url": "https://github.com/themesberg/landwind", "source": "https://github.com/themesberg/landwind",
+      "license": "MIT; inspect separate asset rights",
+      "platforms": ["web"], "stacks": ["html"], "intents": ["marketing"],
+      "cost": "free", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "HTML/Tailwind marketing foundation for straightforward product pages; adapt section order to buyer questions.",
+      "inspect": "Check build chain and Flowbite versions; replace all unsubstantiated social proof and demo assets."
+    },
+    {
+      "id": "tabler", "name": "Tabler", "role": "template", "package": "@tabler/core",
+      "url": "https://github.com/tabler/tabler", "source": "https://github.com/tabler/tabler",
+      "license": "MIT core; inspect plugins and assets",
+      "platforms": ["web", "desktop-web"], "stacks": ["html"], "intents": ["application"],
+      "cost": "free", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Consider for Bootstrap-based operational tools with dense tables, forms, and established administrative patterns.",
+      "inspect": "Avoid adding Bootstrap beside an established incompatible design system; choose a pinned release and inspect plugins."
+    },
+    {
+      "id": "flowbite", "name": "Flowbite Admin Dashboard", "role": "template",
+      "url": "https://github.com/themesberg/flowbite-admin-dashboard", "source": "https://github.com/themesberg/flowbite-admin-dashboard",
+      "license": "MIT source; inspect asset rights",
+      "platforms": ["web"], "stacks": ["html"], "intents": ["application"],
+      "cost": "free", "redistribution": "permissive", "motion": "subtle",
+      "adapt": "Use when its HTML/Tailwind administrative structure fits the workflow and reduces implementation cost.",
+      "inspect": "Review current dependencies, actual free pages, accessibility, and data behavior."
+    },
+    {
+      "id": "magicui", "name": "Magic UI", "role": "enhancement",
+      "url": "https://magicui.design/docs", "source": "https://github.com/magicuidesign/magicui",
+      "license": "Inspect selected component license; premium offerings are separate",
+      "platforms": ["web"], "stacks": ["react"], "intents": ["marketing", "editorial"],
+      "cost": "free-subset", "redistribution": "unverified", "motion": "expressive",
+      "adapt": "One purposeful animated detail may support the visual direction; do not make a whole app depend on decorative effects.",
+      "inspect": "Verify actual free item, source rights, motion dependencies, reduced-motion behavior, and client performance."
+    },
+    {
+      "id": "react-bits", "name": "React Bits", "role": "enhancement",
+      "url": "https://reactbits.dev", "source": "https://github.com/DavidHDev/react-bits",
+      "license": "Inspect the selected source's current license and restrictions",
+      "platforms": ["web"], "stacks": ["react"], "intents": ["marketing", "editorial"],
+      "cost": "free-subset", "redistribution": "unverified", "motion": "expressive",
+      "adapt": "Consider for a clearly justified expressive interaction or visual motif, with a quiet usable surrounding layout.",
+      "inspect": "Check source license, variant dependencies, motion cost, mobile GPU behavior, and a reduced-motion fallback."
+    },
+    {
+      "id": "html-native", "name": "Semantic HTML and project CSS", "role": "native",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML", "source": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "license": "Use platform elements and original project code; documentation has separate terms",
+      "platforms": ["web", "desktop-web"], "stacks": [],
+      "intents": ["application", "commerce", "marketing", "editorial"],
+      "cost": "native", "redistribution": "native", "motion": "subtle",
+      "adapt": "Choose custom semantic structure when a library adds more complexity than value. Keep existing design tokens.",
+      "inspect": "Use mature primitives for complex custom dialogs/menus when needed; test native and composed behavior."
+    },
+    {
+      "id": "mobile-native", "name": "Chosen mobile toolkit's native controls", "role": "native",
+      "url": "https://developer.apple.com/design/human-interface-guidelines", "source": "https://developer.android.com/design/ui",
+      "license": "Follow the chosen toolkit's terms; platform guidance is not a bundled asset license",
+      "platforms": ["mobile"], "stacks": [], "intents": ["application", "commerce", "editorial", "marketing"],
+      "cost": "native", "redistribution": "native", "motion": "subtle",
+      "adapt": "Use the actual platform's navigation, text scaling, touch, safe areas, keyboard and permission patterns.",
+      "inspect": "Identify target OS and toolkit. For native tasks, web block libraries are references, not drop-in source."
+    },
+    {
+      "id": "desktop-native", "name": "Chosen desktop toolkit's native controls", "role": "native",
+      "url": "https://fluent2.microsoft.design/", "source": "https://developer.apple.com/design/human-interface-guidelines",
+      "license": "Check the chosen toolkit and implementation licenses",
+      "platforms": ["desktop"], "stacks": [], "intents": ["application", "commerce", "editorial", "marketing"],
+      "cost": "native", "redistribution": "native", "motion": "subtle",
+      "adapt": "Design for keyboard, resizing, density, selection, menus, file operations, and the actual OS.",
+      "inspect": "Confirm native toolkit and OS; do not import web blocks into WPF/SwiftUI as if source were compatible."
+    }
+  ]
+}
