@@ -1,0 +1,9 @@
+{
+  "product": "Name and one-sentence purpose",
+  "audience": "Who uses this and in what situation",
+  "primary_task": "The most important thing the user must complete",
+  "platform": "web",
+  "scope": "Screens or journey to implement; prototype or production expectations",
+  "constraints": ["Use the existing stack", "Prefer free, appropriately licensed resources"],
+  "acceptance": ["The primary task can be completed with realistic content"]
+}
