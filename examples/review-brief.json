@@ -1,0 +1,21 @@
+{
+  "product": "Existing studio invoice workspace",
+  "audience": "Studio owners following up on overdue invoices",
+  "primary_task": "Find an overdue invoice, inspect its history, and prepare a reminder",
+  "platform": "web",
+  "intent": "application",
+  "scope": "Review the existing implementation and any supplied screenshots; do not build a replacement",
+  "constraints": [
+    "Retain the current brand, framework, useful components, and working behavior",
+    "A sound design can receive a Keep verdict with no changes recommended",
+    "Distinguish observed defects from optional taste preferences",
+    "Suggest the smallest effective correction before a structural rethink",
+    "Mark runtime and visual checks unverified when the relevant tools or artifacts are absent"
+  ],
+  "acceptance": [
+    "Review gives a concise evidence-based verdict and specific strengths to keep",
+    "Any correction includes its location, user impact, smallest fix, and verification",
+    "No file edits, dependency installation, or redesign begins during the review",
+    "A proposed better implementation explains why a simpler correction is insufficient"
+  ]
+}

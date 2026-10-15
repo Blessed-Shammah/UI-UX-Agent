@@ -1,0 +1,18 @@
+{
+  "product": "Due North — invoice follow-up for independent studios",
+  "audience": "Studio owners who need to chase late invoices without maintaining a spreadsheet",
+  "primary_task": "Find the most urgent overdue invoice, review its history, and prepare a reminder",
+  "platform": "web",
+  "scope": "Dashboard, invoice detail, reminder draft and confirmation; local demonstration only",
+  "stack": "Use the existing repository stack; if empty, choose the smallest suitable web stack",
+  "direction": "Calm, precise, trustworthy. Warm-neutral surfaces, ink typography, restrained blue actions. Show the actual workflow, not decorative analytics.",
+  "content": "Use realistic invoice dates and amounts. Label all records as sample data; never imply a reminder email was sent.",
+  "constraints": ["No paid assets or APIs", "Keyboard-operable primary journey", "No fabricated customer endorsements"],
+  "acceptance": [
+    "At 360px and 1440px, the next overdue invoice and primary action remain discoverable",
+    "Selecting an invoice opens its actual sample details",
+    "Editing and preparing a reminder preserves the text and shows an explicit demo confirmation",
+    "Empty filters, invalid email, loading, and failure states have recovery paths",
+    "Normal text contrast and keyboard focus are verified"
+  ]
+}

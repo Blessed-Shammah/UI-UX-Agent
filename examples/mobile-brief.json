@@ -1,0 +1,17 @@
+{
+  "product": "Trailnote — field observations for volunteer conservation teams",
+  "audience": "Volunteers recording sightings outdoors with unreliable connectivity",
+  "primary_task": "Record a sighting with a note and optional photo, then understand its sync status",
+  "platform": "mobile",
+  "scope": "Observation list, add observation, local save state, simulated sync failure and retry",
+  "stack": "Use the existing mobile framework; if absent, state a minimal platform choice",
+  "direction": "Practical field notebook with high readability, natural color cues and clear status labels; avoid decorative nature imagery behind controls",
+  "constraints": ["No paid services", "Permission-denied photo path", "No claim of remote sync without a backend"],
+  "acceptance": [
+    "A new sighting can be recorded without a photo or connection",
+    "The keyboard does not hide the note field or save action",
+    "Large text and assistive labels preserve the main journey",
+    "Locally saved, syncing, failed, and synced are distinct and truthful",
+    "The chosen simulator/device and unverified hardware integrations are documented"
+  ]
+}

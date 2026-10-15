@@ -1,0 +1,17 @@
+{
+  "product": "Cutroom — desktop review queue for a small video studio",
+  "audience": "Editors sorting feedback and preparing the next revision across many projects",
+  "primary_task": "Choose a project, filter unresolved feedback, and mark a comment addressed",
+  "platform": "desktop",
+  "scope": "Resizable project list, feedback table, detail panel and local review state; media playback out of scope",
+  "stack": "Preserve the existing desktop toolkit; otherwise state the selected OS and implementation approach",
+  "direction": "Quiet studio tool with compact rows, clear selection, tabular metadata and one restrained accent; avoid a marketing hero or oversized cards",
+  "constraints": ["No paid assets", "No fake filesystem access", "All frequent actions have keyboard routes"],
+  "acceptance": [
+    "Keyboard users can select a project, filter comments, and mark one addressed",
+    "At the declared minimum window size, actions remain reachable and panels collapse intentionally",
+    "Long file names do not cover actions or hide the only way to identify a project",
+    "Selection, hover and focus remain visually distinct",
+    "Unimplemented media and OS integrations are clearly identified"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "product": "Stillroom — a booking workspace for independent ceramic studios",
+  "audience": "Studio owners considering a simpler way to publish workshops and manage bookings",
+  "primary_task": "Understand the booking workflow, compare the plan, and open a clearly labeled demo",
+  "platform": "web",
+  "intent": "marketing",
+  "stack": "React with the existing project's framework",
+  "free_only": true,
+  "open_source": true,
+  "motion": "subtle",
+  "scope": "SaaS landing page and a working local booking demo; no payments or real booking confirmations",
+  "direction": "Quiet, tactile studio identity with clear editorial hierarchy and authentic product views. Adapt a coherent set of blocks rather than mixing unrelated hero sections.",
+  "acceptance": [
+    "A visitor understands who the product serves and what the next action does",
+    "The demo link opens the actual scoped booking flow",
+    "The selected foundation fits React and permits the intended open-source distribution",
+    "No fake studio customers, testimonials, live bookings, or payment success",
+    "Narrow layout, keyboard navigation, focus and relevant state transitions are checked"
+  ]
+}
