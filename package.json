@@ -1,0 +1,54 @@
+{
+  "name": "ui-ux-agent-kit",
+  "version": "0.3.0",
+  "description": "Installable UI/UX agent skill with project-aware resource selection, design planning, and portable LLM prompts.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "ui-ux-agent": "bin/ui-ux-agent.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "resources/",
+    "prompts/",
+    "templates/",
+    "examples/",
+    "docs/",
+    "tools/uiux.py",
+    "evals/README.md",
+    "evals/cases.json",
+    "CONTRIBUTING.md",
+    "AGENTS.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:python": "python3 -m unittest discover -s tests -v",
+    "prepack": "npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blessed-Shammah/UI-UX-Agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blessed-Shammah/UI-UX-Agent/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "ui",
+    "ux",
+    "design",
+    "llm",
+    "shadcn",
+    "tailark"
+  ]
+}
